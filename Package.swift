@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/swift-molecules/swift-symmetry.git",
+            url: "https://github.com/swift-atoms/swift-symmetry.git",
             branch: "main"
         ),
         .package(
@@ -32,7 +32,7 @@ let package = Package(
             name: "Symmetry Algebra",
             dependencies: [
                 .product(name: "Symmetry", package: "swift-symmetry"),
-                .product(name: "Algebra Group", package: "swift-algebra"),
+                .product(name: "Algebra", package: "swift-algebra"),
             ]
         ),
         .testTarget(

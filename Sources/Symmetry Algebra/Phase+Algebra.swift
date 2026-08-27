@@ -1,4 +1,4 @@
-public import Algebra_Group
+public import Algebra
 public import Symmetry
 
 extension Phase {
