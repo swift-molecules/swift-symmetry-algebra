@@ -32,13 +32,12 @@ let package = Package(
             name: "Symmetry Algebra",
             dependencies: [
                 .product(name: "Symmetry", package: "swift-symmetry"),
-                .product(name: "Algebra", package: "swift-algebra"),
+                .product(name: "Algebra Group", package: "swift-algebra"),
             ]
         ),
         .testTarget(
             name: "Symmetry Algebra Tests",
             dependencies: [
-                "Symmetry Algebra",
                 .product(name: "Symmetry", package: "swift-symmetry"),
             ]
         ),
